@@ -16,7 +16,7 @@ def convolve(a, b):
     for i in xrange(a.start(),a.stop()):
         print i
         vals = [a.value(i)*bvalue for bvalue in b.values]
-        print a.value(i)        
+#        print a.value(i)        
         dis = Distribution(i+b.offset, vals)
         distributions.append(dis)
             
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     # Now move and plot.
     for m in moves:
         move_distribution = Distribution.triangle(m, 2)
-        position = convolve(position, move_distribution)
+        posit2wsxion = convolve(position, move_distribution)
         plot(position.plotlists(*arena)[0], position.plotlists(*arena)[1],
              linestyle='steps')
 
