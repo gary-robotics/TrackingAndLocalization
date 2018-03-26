@@ -1,5 +1,4 @@
-# Extended Kalman Filter Project Starter Code: This project was done by Shantnu Kakkar for the Udacity Nano-degree term 2. If you find any problem in the code then please contact me at shantnukakkar1992@gmail.com
-Self-Driving Car Engineer Nanodegree Program
+# Extended Kalman Filter Project Starter Code: This project was done by Shantnu Kakkar for the Udacity Self-driving car Nano-degree term 2. If you find any problem in the code then please contact me at shantnukakkar1992@gmail.com
 
 In this project we will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. The project also requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
